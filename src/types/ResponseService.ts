@@ -3,7 +3,7 @@ type StatusError = 400 | 404 | 401 | 500 ;
 
 export type ResponseServiceSuccess<T> = {
   status: StatusOk | StatusError,
-  data: T
+  data: T | { message : string }
 };
 
 export type ResponseService<T> = ResponseServiceSuccess<T>;
