@@ -5,7 +5,6 @@ const app = express();
 
 app.use(express.json());
 
-app.use(productRouter)
-
+app.use(productRouter);
 
 export default app;
