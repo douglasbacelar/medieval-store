@@ -15,6 +15,6 @@
     "strict": true,
     "skipLibCheck": true
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*", "tests/integration/products/mocks", "tests/mocks/products.mock.test.ts"],
   "exclude": ["node_modules"]
 }
